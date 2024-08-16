@@ -1,4 +1,4 @@
-# Vehicle Models Project
+# Pet-Breed-Explorer
 
 This project is a web application built with Next.js and TypeScript. It fetches and displays vehicle models based on the make ID and year provided. The project uses Tailwind CSS for styling and includes error handling and loading states.
 
@@ -15,6 +15,12 @@ A web application using Next.js, TypeScript, and Tailwind CSS that displays a li
 git clone https://github.com/YehorBoichenko/Pet-Breed-Explorer.git
 cd Pet-Breed-Explorer
 npm install
+```
+
+create env file: 
+```
+NEXT_PUBLIC_CATS_API_KEY=live_JXalxk615gMUSpKONoSSrdOQoidHa5gstHyPVW2UDgM0SDhyvJA6ov4daGV3GGwn
+NEXT_PUBLIC_DOGS_API_KEY=live_TtOyRWFyYzIgIFjOkW0dCTUGXW1eBTpgQvSMm4W9KgeldX7wVqCUWgpjmugUWMCm
 ```
 
 ## 💻 Development
