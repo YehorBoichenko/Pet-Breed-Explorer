@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 :root {
+  --text-main-cats:255,143,31;
+  --text-main-dogs: 244, 242, 126;
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -15,12 +17,27 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
 
+/* custom styles */
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.contant_box_404 {
+  margin-top: -50px;
+}
 
 /* custom scrollbar */
 ::-webkit-scrollbar {
